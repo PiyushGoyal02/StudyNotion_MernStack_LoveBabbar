@@ -1,0 +1,17 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    overflow-x: hidden;
+}
+
+*::selection{
+    background-color: rgb(53, 51, 51);
+    color: rgb(250, 218, 218);
+}
+
+.homepage_bg{
+    background: url("../src//assets//Images/bghome.svg");
+}
