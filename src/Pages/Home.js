@@ -9,7 +9,7 @@ import TimelineSection from "../components/core/HomePage/TimelineSection";
 import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection";
 import InstructorSection from "../components/core/HomePage/InstructorSection";
 import Footer from "../components/common/Footer";
-import ExploreMore from "../components/core/HomePage/ExploreMore";
+import UnloackPowerCode from "../components/core/HomePage/UnloackPowerCode";
 
 function Home() {
   return (
@@ -115,7 +115,7 @@ function Home() {
           />
         </div>
 
-        <ExploreMore/>
+        <UnloackPowerCode/>
       </div>
 
       {/* Section 2 */}
@@ -178,7 +178,7 @@ function Home() {
 
         <div className=" w-11/12 max-auto max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
             <InstructorSection/>
-            <h2 className="text-center font-semibold text-4xl mt-10">Reviews from Other learners</h2>
+            <h2 className="ml-[33%] mb-[25px] font-semibold text-4xl mt-10">Reviews from Other learners</h2>
             {/* Review Slider Here */}
         </div>
 
