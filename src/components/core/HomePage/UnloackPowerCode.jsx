@@ -11,7 +11,7 @@ const tabsName = [
     "Career Paths"
 ]
 
-const ExploreMore = () => {
+const UnloackPowerCode = () => {
 
     const [currentTab, setCurrentTab] = useState(tabsName[0]);
     const[courses, setCourses] = useState(HomePageExplore[0].courses)
@@ -81,4 +81,4 @@ const ExploreMore = () => {
   )
 }
 
-export default ExploreMore
+export default UnloackPowerCode

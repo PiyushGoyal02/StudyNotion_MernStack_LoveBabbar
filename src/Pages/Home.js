@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { TiArrowRightThick } from "react-icons/ti";
-import HighlighText from "../components/core/HomePage/HighlighText";
-import CTAButton from "../components/core/HomePage/Button";
 import Banner from "../assets/Images/banner.mp4";
-import CodeBlock from "../components/core/HomePage/CodeBlock";
-import TimelineSection from "../components/core/HomePage/TimelineSection";
-import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection";
-import InstructorSection from "../components/core/HomePage/InstructorSection";
 import Footer from "../components/common/Footer";
+import { TiArrowRightThick } from "react-icons/ti";
+import CTAButton from "../components/core/HomePage/Button";
+import CodeBlock from "../components/core/HomePage/CodeBlock";
+import HighlighText from "../components/core/HomePage/HighlighText";
+import TimelineSection from "../components/core/HomePage/TimelineSection";
 import UnloackPowerCode from "../components/core/HomePage/UnloackPowerCode";
+import InstructorSection from "../components/core/HomePage/InstructorSection";
+import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection";
 
 function Home() {
   return (
@@ -64,7 +64,7 @@ function Home() {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock Your
-                <HighlighText text={"coding potential"} />
+                <HighlighText text={" coding potential"} />
                 with our online courses
               </div>
             }
@@ -93,7 +93,7 @@ function Home() {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock Your
-                <HighlighText text={"coding potential"} />
+                <HighlighText text={" coding potential"} />
                 with our online courses
               </div>
             }
