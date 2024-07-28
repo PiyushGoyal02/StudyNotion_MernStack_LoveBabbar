@@ -65,7 +65,7 @@ function AboutContactUsForm () {
                             />
                             {
                                 errors.firstname && (
-                                    <span>
+                                    <span className="text-yellow-200">
                                         Please enter Your name
                                     </span>
                                 )
@@ -89,7 +89,7 @@ function AboutContactUsForm () {
 
                     {/* Email */}
                     <div className="flex flex-col">
-                        <label htmlFor="email">Enter Your Email Address</label>
+                        <label htmlFor="email">Email Address</label>
                         <input
                             type="email"
                             id="email"
@@ -101,7 +101,7 @@ function AboutContactUsForm () {
 
                         {
                             errors.email && (
-                                <span>
+                                <span className="text-yellow-200">
                                     Please Enter Your Email Address
                                 </span>
                             )
@@ -149,7 +149,7 @@ function AboutContactUsForm () {
                         </div>
                         {
                             errors.phoneNo && (
-                                <span>
+                                <span className="text-yellow-200">
                                     {errors.phoneNo.message}
                                 </span>
                             )
@@ -172,7 +172,7 @@ function AboutContactUsForm () {
                         />
                         {
                             errors.message && (
-                                <span>
+                                <span className="text-yellow-200">
                                     Please Enter Your Message
                                 </span>
                             )

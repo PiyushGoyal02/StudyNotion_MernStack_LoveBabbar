@@ -13,10 +13,16 @@ const tabsName = [
 
 const UnloackPowerCode = () => {
 
+    // Eska matlab hai ki Default Tab Select Karega [0] Index vala I mean Free Vala Tab Default Select rahega
     const [currentTab, setCurrentTab] = useState(tabsName[0]);
+
+    // eska Matlab hai ki Hame Default Case Mai Free Vaale Tab ka Data Chahiye Jese Free Tab Default Set Hai Vese hi Freee Tab Ka Data Be Default Set Kiya hai
     const[courses, setCourses] = useState(HomePageExplore[0].courses)
+
+    // Eska Matlab hai ki buy default First Tab or Frist tab kai data ka First Card Select Rhega Default Case mai
     const [currentCard, setCurrentCard] = useState(HomePageExplore[0].courses[0].heading)
 
+    // All Cards KO Update Karne ka Kaam Kar rha hai
     const setMyCards = (value) => {
         setCurrentCard(value)
         const result = HomePageExplore.filter((course) => course.tag === value);
